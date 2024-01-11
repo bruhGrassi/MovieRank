@@ -1,6 +1,6 @@
 ## Movie Rank
 
-![lista de filmes](https://github.com/bruhGrassi/movie-rank/assets/87210532/3fe68ccc-3777-4eff-ba9f-f717060cf0fc)
+![lista de filmes](https://github.com/bruhGrassi/MovieRank/assets/87210532/c669aa94-161b-4992-9a5f-cc0200e21ee3)
 
 # Descrição/Description
 
