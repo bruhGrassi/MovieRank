@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <title>Movie Rank</title>
+    </head>
+    <body>
+        <header>
+            <form id="form" class="search-wrapper">
+                <select id="sort" class="sort">
+                    <option value="">Ordenar por:</option>
+                    <option value="vote_average.desc">Nota (decrescente)</option>
+                    <option value="vote_average.asc">Nota (crescente)</option>
+                </select>
+
+                <div class="search-input">
+                    <input type="text" id="search" class="search" placeholder="Buscar">
+                    <button id="searchBtn" class="search-button button"><img src="search.png" alt="Buscar"></button>
+                </div>
+                <button id="clearFilter" class="button search-clear">Resetar</button>
+            </form>
+        </header>
+
+        <div id="noResultsMessage" class="message">Nenhum resultado encontrado.</div>
+
+        <main id="main"></main>
+        <script src="script.js"></script>
+    </body>
+</html>
